@@ -7,16 +7,22 @@
       name="description"
       content="This is an example project for Chemical."
     />
-    <title>Chemical Example</title>
+    <title>Google</title>
     <link rel="stylesheet" href="/style.css" />
     <script src="/chemical.js"></script>
     <script src="/chemical.components.js"></script>
   </head>
   <body>
-    <h1>Chemical Example</h1>
+    <!-- STAR ANIMATION -->
+    <div class="bg-animation">
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+      <div id='stars4'></div>
+    </div><!-- / STAR ANIMATION -->
+    <h1>bobbybrowser</h1>
     <p>
-      Create your own site using
-      <a href="https://github.com/chemicaljs/chemical">Chemical!</a>
+      kinda lightweight i guess
     </p>
     <input
       autofocus
@@ -40,5 +46,12 @@
       <button onclick="chemical.componentAction('close', 'web')">Close</button>
     </section>
     <iframe id="web" data-controls="controls" is="chemical-iframe"></iframe>
+    <script>
+      /*window.addEventListener("keydown", function(e){
+        if(e.key === "="){ 
+          document.write(document.getElementById("web").getAttribute("src"))
+        }
+      })*/
+    </script>
   </body>
 </html>
